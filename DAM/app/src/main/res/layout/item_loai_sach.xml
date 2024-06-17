@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/khung3"
+        android:layout_margin="5sp"
+        android:id="@+id/lnlDelete"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="340sp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:id="@+id/txtMaLoai"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_marginTop="3sp"
+                />
+            <TextView
+                android:id="@+id/txtTenLoai"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:inputType="text" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="70sp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+            <Button
+                android:id="@+id/btnDeleteLS"
+                android:layout_width="30sp"
+                android:layout_height="33sp"
+                android:layout_marginBottom="5sp"
+                android:background="@drawable/baseline_delete_24"/>
+            <Button
+                android:id="@+id/btnUPdateLS"
+                android:layout_width="30sp"
+                android:layout_height="33sp"
+                android:background="@drawable/baseline_security_update_24"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

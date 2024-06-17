@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8B6B6"
+        android:layout_margin="5sp"
+        android:orientation="vertical"
+
+        >
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Mã phiếu mượn"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginLeft="5sp" />-->
+<!--        />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edtAddPM"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50sp"-->
+<!--            android:layout_margin="5sp"-->
+<!--            android:background="@drawable/khung" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Mã thủ thư"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginLeft="5sp" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edtAddPMTT"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50sp"-->
+<!--            android:layout_margin="5sp"-->
+<!--            android:background="@drawable/khung"-->
+<!--            android:inputType="text" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mã thành viên"
+            android:textSize="20sp"
+            android:layout_marginLeft="5sp" />
+
+        <Spinner
+            android:id="@+id/spnAddTV"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_margin="5sp"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mã sách"
+            android:textSize="20sp"
+            android:layout_marginLeft="5sp" />
+
+<!--        <EditText-->
+<!--            android:id="@+id/edtAddPMMS"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50sp"-->
+<!--            android:layout_margin="5sp"-->
+<!--            android:background="@drawable/khung"-->
+<!--            android:inputType="number" />-->
+
+        <Spinner
+            android:id="@+id/spnAddSach"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="Ngày"
+            android:textSize="20sp"
+            android:layout_marginLeft="5sp" />
+
+<!--        <EditText-->
+<!--            android:id="@+id/edtAddNgay"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50sp"-->
+<!--            android:layout_margin="5sp"-->
+<!--            android:background="@drawable/khung"-->
+<!--            android:inputType="number" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="trả sách"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginLeft="5sp" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edtAddTraSach"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50sp"-->
+<!--            android:layout_margin="5sp"-->
+<!--            android:background="@drawable/khung"-->
+<!--            android:inputType="number" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Tiền thuê"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginLeft="5sp" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edtAddTienThue"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50sp"-->
+<!--            android:layout_margin="5sp"-->
+<!--            android:background="@drawable/khung"-->
+<!--            android:inputType="number" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAddPM"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="50sp"
+                android:background="@drawable/baseline_save_as_24" />
+
+            <Button
+                android:id="@+id/btnCancelPM"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/baseline_cancel_24" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

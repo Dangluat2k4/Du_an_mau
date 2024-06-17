@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/quanlyphieumuon"
+        android:icon="@drawable/baseline_home_24"
+        android:title="quản lý phiếu mượn" />
+    <item
+        android:id="@+id/quanlyloaisach"
+        android:icon="@drawable/baseline_menu_book_24"
+        android:title="quản lý loại sách" />
+    <item
+        android:id="@+id/quanlysach"
+        android:icon="@drawable/baseline_turned_in_24"
+        android:title="quản lý sách" />
+    <item
+        android:id="@+id/quanlythanhvien"
+        android:icon="@drawable/baseline_person_24"
+        android:title="quản lý thành viên" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/thongke"
+            android:title="thống kê top 10">
+            <menu>
+                <item
+                    android:id="@+id/top10"
+                    android:icon="@drawable/top_10"
+                    android:title="top 10 sách mượn nhiều nhất" />
+                <item
+                    android:id="@+id/doanhthu"
+                    android:icon="@drawable/pension"
+                    android:title="doanh thu" />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nguoidung"
+            android:title="nguoi dung">
+            <menu>
+                <item
+                    android:id="@+id/doimatkhau"
+                    android:title="đổi mật khẩu"
+                    android:icon="@drawable/baseline_key_24"
+                    />
+                <item
+                    android:id="@+id/dangxuat"
+                    android:icon="@drawable/baseline_logout_24"
+                    android:title="đăng xuất"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/taotk"
+            android:title="tạo tài khoản">
+            <menu>
+                <item
+                    android:id="@+id/dangki"
+                    android:icon="@drawable/contract"
+                    android:title="tạo tài khoản" />
+            </menu>
+        </item>
+    </group>
+</menu>

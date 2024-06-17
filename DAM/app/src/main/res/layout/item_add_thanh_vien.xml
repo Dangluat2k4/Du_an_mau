@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8B6B6"
+        android:layout_margin="5sp"
+        android:orientation="vertical">
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Mã thành viên"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginLeft="5sp"-->
+
+<!--            />-->
+<!--        />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edtAMaTV"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50sp"-->
+<!--            android:layout_margin="5sp"-->
+<!--            android:background="@drawable/khung" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên thành viên :"
+            android:textSize="20sp"
+            android:layout_marginLeft="5sp" />
+
+        <EditText
+            android:id="@+id/edtATenTV"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_margin="5sp"
+            android:background="@drawable/khung"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Năm sinh"
+            android:textSize="20sp"
+            android:layout_marginLeft="5sp" />
+
+        <EditText
+            android:id="@+id/edtANamSinh"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_margin="5sp"
+            android:background="@drawable/khung"
+            android:inputType="number" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnATV"
+                android:layout_width="40sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:layout_marginRight="50sp"
+                android:background="@drawable/baseline_save_as_24" />
+
+            <Button
+                android:id="@+id/btnACancel"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/baseline_cancel_24" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
